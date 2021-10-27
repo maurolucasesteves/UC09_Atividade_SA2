@@ -1,0 +1,152 @@
+*{
+    margin: 0px;        
+    padding: 0px;
+}
+/**************HEADER*****************/
+header{
+    width: 1440px;
+    height: 80px;
+    /**border: 1px solid red; ***/
+}
+
+.logo{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+ul{
+    display: inline;
+    margin-left: 550px;
+    margin-top: 30px;
+    position: absolute;
+    width: 590px;
+    height: 23px;
+    align-items: center;
+}
+
+a{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 30px;
+}
+
+button{
+position: absolute;
+width: 120px;
+height: 52px;
+left: 1271px;
+top: 14px;
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+color: black;
+text size-adjust: 28px;
+background-color: #57ecf5;
+border-radius: 5px;
+border-color: #57ecf5;
+}
+
+/**************Banner*****************/
+
+.banner {
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    background-color: #005CAA;
+}
+
+.figure{
+    width: 600px;
+    height: 400px;
+    left: 75px;
+    top: 50px;
+}
+
+.banner figure img{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.texto_banner{
+    position: absolute;
+    width: 571px;
+    height: 275px;
+    left: 730px;
+    top: 80px;
+    text-align: justify;
+
+}
+.texto_banner h1{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 30px;
+}
+.texto_banner p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 30px;
+    font-style: normal;
+}
+.texto_banner a{
+    font-style: italic;
+    color: rgb(102, 12, 12);
+}
+
+/**************Destaque*****************/
+
+.destaque{
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    top: 580px;
+    border: 1px solid red;
+}
+
+.img_destaque{
+    float: left;
+    width: 230px;
+    height: auto;
+    top: 500px;
+    left: 30px;
+    padding: 15px;
+}
+
+.img_destaque figure img{
+    margin: 250px 0px 0px 0px;
+    width: 230px;
+    height: 150;
+}
+
+figcaption {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration:none ;
+    color: black;
+    text-size-adjust: normal;
+    margin-left: 12px;
+}
+
+.texto_destaque{
+    position: absolute;
+    width: 970px;
+    height: 106px;
+    left: 235px;
+
+}
+.texto_destaque h1{
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.texto_destaque p {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-size-adjust: 24px;
+    font-style: normal;
+    width: 500px;
+}
