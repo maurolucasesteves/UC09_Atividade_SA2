@@ -34,7 +34,7 @@ a{
     text-size-adjust: 30px;
 }
 
-button{
+.btn-login{
 position: absolute;
 width: 120px;
 height: 52px;
@@ -291,4 +291,101 @@ figcaption {
 li{
     list-style-type: none;
     line-height: 1.5;
+}
+
+/************** hardware *****************/
+
+.area-hardware{
+    width: 1440px;
+    height: 80px;
+    margin-top: 15px;
+}
+th{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: darkgray;
+    
+}
+.descricao-produto{
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid red;
+}
+.produto{
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid green;
+}
+.preco{
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid red;
+}
+.compra{
+       width: 300px;
+       height: 80px;
+       text-align: center;
+       border: 1px solid green;
+}
+.descricao{
+    width: 300px;
+    height: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.img-produto{
+    width: 300px;
+    height: auto;
+}
+.img-produto img{
+    width: 250px;
+    height: auto;
+}
+.valor-produto{
+    width: 300px;
+    height: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;  
+}
+.compra-produto{
+    width: 300px;
+    height: auto;
+
+}
+.btn-comprar{
+    background-color: #40af50;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    /**border-color: #40af50;*/
+    margin-left: 100px;
+
+
+}
+
+th,td{
+    border: 1px solid black;
+    
+}
+
+/**************Footer / rodape hardware*****************/
+
+.rodape-hardware{
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+    border: 1px solid red;
+    margin-top: 950px;
 }
